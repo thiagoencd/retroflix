@@ -19,9 +19,9 @@
             <h2 class="logo">RETROFLIX</h2>
             <nav>
                 <a href="#">Início</a>
-                <a href="#">Filmes</a>
-                <a href="#">Séries</a>
-                <a href="#">Desenhos</a>
+                <a href="#filmes">Filmes</a>
+                <a href="#series">Séries</a>
+                <a href="#desenhos">Desenhos</a>
             </nav>
         </div>
     </header>
@@ -32,11 +32,11 @@
                 <h3 class="titulo">De Volta para o Futuro</h3>
                 <p class="descricao">Um jovem aciona acidentalmente uma máquina do tempo construída por um cientista em um Delorean, retornando aos anos 50. Lá conhece sua mãe, antes ainda do casamento com seu pai, que fica apaixonada por ele. Tal paixão põe em risco sua própria existência, pois alteraria todo o futuro, forçando-o a servir de cupido entre seus pais.</p>
                 <div class="botoes">
-                    <button role="button" class="botao">
+                    <button onclick="alert('Indisponível no momento')" role="button" class="botao">
                         <i class="fas fa-play"></i>
                         ASSISTIR AGORA
                     </button>
-                    <button role="button" class="botao">
+                    <button onclick="window.open('https://www.adorocinema.com/filmes/filme-448/')" role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
@@ -45,7 +45,7 @@
         </div>
 
         <div class="carrosel">
-            <h3 class="tipo-midia">Filmes</h3>
+            <h3 id="filmes" class="tipo-midia">Filmes</h3>
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <img src="/img/filmes/btf2.jpg" alt="" class="box">
@@ -87,7 +87,7 @@
         </div>
 
         <div class="carrosel">
-            <h3 class="tipo-midia">Séries</h3>
+            <h3 id="series" class="tipo-midia">Séries</h3>
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <img src="/img/series/chips.jpg" alt="" class="box">
@@ -129,7 +129,7 @@
         </div>
 
         <div class="carrosel">
-            <h3 class="tipo-midia">Desenhos</h3>
+            <h3 id="desenhos" class="tipo-midia">Desenhos</h3>
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <img src="/img/desenhos/bobby.jpg" alt="" class="box">
