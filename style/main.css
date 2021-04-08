@@ -94,3 +94,20 @@ header nav a:hover{
     width: 50%;
     text-align: justify;
 }
+
+/* BOX */
+.box{
+    margin-top: 10px;
+    height: 50%;
+    width: 50%;
+    display: block;
+}
+
+.carrosel{
+    margin-top: 10px;
+}
+
+.tipo-midia{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
